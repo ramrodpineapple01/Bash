@@ -1,6 +1,5 @@
 #!/bin/bash
-# Jorge Figoli 
-# Im still working on my some of my commands so this is for testing only//NOT FOR PUBLICATION YET
+
 # Function to install Matrix Synapse
 install_matrix_synapse() {
     # Update and upgrade the system
