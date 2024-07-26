@@ -8,6 +8,6 @@ usermod -aG sudo $user
 
 #Creating SSH keys for new user
 mkdir /home/$user/.ssh
-cp .ssh/authorized_keys /home/ghostrider/.ssh/authorized_keys
-chown -R $user:$user /home/ghostrider/.ssh
+cp .ssh/authorized_keys /home/$user/.ssh/authorized_keys
+chown -R $user:$user /home/$user/.ssh
 echo "User $user has been created and configured."
