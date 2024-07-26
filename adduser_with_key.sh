@@ -1,5 +1,6 @@
 #!/bin/bash
 #Creating the user
+#if you are pulling from git make sure to move the file to the root directory or fix the path for the copy function in this script
 read -p "Please add the user name :" user
 adduser $user
 #Create password
